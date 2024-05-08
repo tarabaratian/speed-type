@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="headname">
+      <p class="headtext">Check your typing skills in a minute</p>
+      <p class="maintext">
+        When the user starts typing, the timer starts counting time. And by
+        typing each letter by the user, the correspondence of the user's text
+        with the displayed text is checked.
+      </p>
+    </div>
+    <section class="textarea">
+      <div class="temtext">
+        <p class="one">Template text:</p>
+        <p id="two" class="two">The text to test.</p>
+      </div>
+      <div class="wrapper-text">
+        <textarea
+          name=""
+          id="testarea"
+          rows="6"
+          placeholder="By typing the first letter, the timer starts counting."
+        ></textarea>
+      </div>
+      <div class="meta">
+        <div id="clock">
+            <div class="timer">00:00:00</div>
+          </div>
+          <button id="restart">restart</button>
+      </div>
+
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
